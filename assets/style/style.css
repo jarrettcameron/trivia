@@ -1,1 +1,33 @@
-/* BASIC STYLES HERE */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+    animation: rainbow;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    10% {
+        background-color: #e84949;
+    }
+
+    20% {
+        background-color: #fba433;
+    }
+
+    40% {
+        background-color: #33b8fb;
+    }
+
+    60% {
+        background-color: #fb33f4;
+    }
+
+    80% {
+        background-color: #33fb54;
+    }
+
+    100% {
+        background-color: #e84949;
+    }
+}
